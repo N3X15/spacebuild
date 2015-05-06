@@ -34,13 +34,13 @@ end
 -- MsgN, for messages.
 function CAFLog.Debug(message)
     if CAFLog.level <= CAFLOG_DEBUG then
-        MsgN("CAF [DEBUG  ]: "..message)
+        MsgN("CAF [DEBUG]: "..message)
     end
 end
 
 function CAFLog.Info(message)
     if CAFLog.level <= CAFLOG_INFO then
-        MsgN("CAF [INFO   ]: "..message)
+        MsgN("CAF [INFO]: "..message)
     end
 end
 
@@ -52,6 +52,6 @@ end
 
 function CAFLog.Error(message)
     if CAFLog.level <= CAFLOG_ERROR then
-        ErrorNoHalt("CAF [ERROR  ]: "..message)
+        ErrorNoHalt("CAF [ERROR]: "..message)
     end
 end
