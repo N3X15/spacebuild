@@ -2,8 +2,8 @@
 {
 	"name"		    "Spacebuild"
 	"version"	    "3.3.1"
-	"author_name"	"N3X15"
-	"author_email"	"nexisentertainment@gmail.com"
-	"author_url"	"http://www.nexisonline.net/"
+	"author_name"       "N3X15"
+	"author_email"      "nexisentertainment@gmail.com"
+	"author_url"        "http://www.nexisonline.net/"
 	"info"		    "Spacebuild Addon"
 }
